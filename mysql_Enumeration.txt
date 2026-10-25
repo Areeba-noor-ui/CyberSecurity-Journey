@@ -1,0 +1,40 @@
+## MySQL Enumeration:
+
+```bash
+msf5 > search type:auxiliary mysql
+search portscan
+msf5 > use scanner/mysql/mysql_version
+
+(for further enumeration need to check database )
+msf5 > search mysql_login
+msf5 > use ...mysql_login
+> set USERNAME root
+> set PASS_file /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
+
+after finding the password check module:
+  > search mysql_enum
+  use the module found
+  > use (module)
+  >info
+  >set PASSWORD (foundedpass)
+  >set USERNAME root
+  >run
+  gather information from the result
+  
+now use this module :
+> search mysql_sql
+>use ...
+> set PASSWORD
+>set USERNAME
+>run
+>show options
+
+> set SQL show databases;
+>run
+
+use module mysql_schemadump:
+set password and run it will show database
+>services
+>loot
+>creds
+```
