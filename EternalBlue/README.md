@@ -41,8 +41,8 @@ machine in an isolated environment.
 - Defensive hardening practices.
 
 ## Complete Documentation
-
-See EternalBlue_MS17-010_Report.pdf  EternalBlue/EternalBlue_MS17-010_Report.pdf for the
+[View Complete Technical Report (PDF)](EternalBlue_MS17-010_Report.pdf)
+for the
 complete technical report, including methodology,
 screenshots, analysis, and remediation.
 
