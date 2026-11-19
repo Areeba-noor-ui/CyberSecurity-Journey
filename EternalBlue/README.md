@@ -42,7 +42,7 @@ machine in an isolated environment.
 
 ## Complete Documentation
 
-See  for the
+See EternalBlue_MS17-010_Report.pdf for the
 complete technical report, including methodology,
 screenshots, analysis, and remediation.
 
